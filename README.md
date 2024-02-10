@@ -32,3 +32,16 @@ Step into the future with this interactive and stylish Tic-Tac-Toe game! Play ag
 1. Clone the repository:
    ```bash
    git clone https://github.com/jinosabu1999/tic-tac-toe.git
+
+
+2. Open `index.html` in your web browser.
+
+## Credits
+
+- Created by [Your Name](https://github.com/your-username)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
+Replace `your-game-url.com` in the preview section with the actual URL where the game is hosted. Also, update the credits section with your information.
