@@ -38,10 +38,9 @@ Step into the future with this interactive and stylish Tic-Tac-Toe game! Play ag
 
 ## Credits
 
-- Created by [Your Name](https://github.com/your-username)
+- Created by [Your Name](https://github.com/jinosabu1999)
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-Replace `your-game-url.com` in the preview section with the actual URL where the game is hosted. Also, update the credits section with your information.
+
