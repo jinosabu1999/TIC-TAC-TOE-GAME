@@ -38,7 +38,7 @@ Step into the future with this interactive and stylish Tic-Tac-Toe game! Play ag
 
 ## Credits
 
-- Created by [Your Name](https://github.com/jinosabu1999)
+- Created by [Jino Sabu](https://github.com/jinosabu1999)
 
 ## License
 
