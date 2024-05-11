@@ -33,9 +33,12 @@ Step into the future with this interactive and stylish Tic-Tac-Toe game! Play ag
 
 ## Technologies Used
 
-- HTML
-- CSS
-- JavaScript
+
+🌐💻 HTML5 📚
+
+🎨🖌️ CSS3
+
+🎶🎵 JavaScript
 
 
 ## Installation
