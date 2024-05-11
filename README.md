@@ -19,12 +19,17 @@ Step into the future with this interactive and stylish Tic-Tac-Toe game! Play ag
 
 ## How to Play
 
-1. Open the game in your web browser.
-2. Tap a cell to place your mark (X or O).
-3. Alternate turns with your opponent.
-4. Achieve three marks in a row, column, or diagonal to win.
-5. If all cells are filled without a winner, the game ends in a draw.
-6. Click the "Restart Game" button to start a new game.
+🌐💻 **Open the game** in your web browser. 🖥️
+
+📱🔲 **Tap a cell** to place your mark (X or O). 🎲
+
+🔄 **Alternate turns** with your opponent. 🔄
+🏆 **Achieve three marks** in a row, column, or diagonal to win. 📊
+
+🤝 **If all cells are filled** without a winner, the game ends in a draw. 🤝
+
+🔁 **Click the "Restart Game"** button to start a new game. 🔄
+
 
 ## Technologies Used
 
