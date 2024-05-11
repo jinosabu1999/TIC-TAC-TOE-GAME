@@ -1,4 +1,4 @@
-## Tic-Tac-Toe Game
+## Introduction
 
 Step into the future with this interactive and stylish Tic-Tac-Toe game! Play against a friend and showcase your strategic skills in achieving victory.
 
