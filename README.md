@@ -4,12 +4,13 @@ Step into the future with this interactive and stylish Tic-Tac-Toe game! Play ag
 
 ## Features
 
-- Responsive layout for seamless gameplay on any device.
-- Futuristic design with vibrant hover effects.
-- Two-player mode: Challenge a friend and compete for victory.
-- Win detection: Achieve three marks in a row, column, or diagonal to win the game.
-- Draw detection: If all cells are filled without a winner, the game ends in a draw.
-- Restart option: Restart the game with a single click and continue the fun.
+📱💻 **Responsive layout** for seamless gameplay on any device. 🖥️
+🌈🎨 **Futuristic design** with vibrant hover effects. ✨
+👫 **Two-player mode**: Challenge a friend and compete for victory. 🏆
+🎯 **Win detection**: Achieve three marks in a row, column, or diagonal to win the game. 📊
+🤝 **Draw detection**: If all cells are filled without a winner, the game ends in a draw. 🤝
+🔄 **Restart option**: Restart the game with a single click and continue the fun. 🔁
+
 
 ## How to Play
 
