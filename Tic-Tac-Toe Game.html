@@ -60,14 +60,34 @@
     .popup {
       display: none;
       position: absolute;
-      top: -120px;
+      top: -150px;
       left: 50%;
       transform: translateX(-50%);
       padding: 20px;
-      background-color: #1f1f1f;
-      border: 2px solid #4caf50;
+      background-color: transparent;
+      border: 2px solid white;
+      border-radius: 14px;
       z-index: 10;
       text-align: center;
+    }
+
+    .popup-message {
+      background-color: transparent;
+    }
+
+    .close-btn {
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin: -10px;
+      padding: 5px;
+      color: #fff;
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    .close-btn:hover {
+      color: #ccc;
     }
 
     .popup button,
@@ -86,7 +106,7 @@
 
     .popup button:hover,
     #restart:hover {
-      background: linear-gradient(45deg, #45a049, #66bb6a);
+      background: orange;
       transform: translateY(-2px);
     }
 
@@ -110,8 +130,9 @@
 <body>
   <div class="game-container">
     <div class="popup" id="popup">
-      <p id="popup-message"></p>
-      <button id="close-popup">Close</button>
+      <span class="close-btn" id="close-popup">❌</span>
+      <p class="popup-message" id="popup-message"></p>
+      <button id="rematch">Rematch</button>
     </div>
     <div class="game-board">
       <div class="cell" data-index="0"></div>
@@ -137,6 +158,7 @@
     const popup = document.getElementById('popup');
     const popupMessage = document.getElementById('popup-message');
     const closePopupBtn = document.getElementById('close-popup');
+    const rematchBtn = document.getElementById('rematch');
 
     let currentPlayer = 'X';
     let gameOver = false;
@@ -148,21 +170,28 @@
       [0, 4, 8], [2, 4, 6] // Diagonals
     ];
 
+    const moveSound = new Audio('https://www.soundjay.com/button/beep-07.wav');
+    const winSound = new Audio('https://www.soundjay.com/button/beep-05.wav');
+    const drawSound = new Audio('https://www.soundjay.com/button/beep-03.wav');
+
     function handleCellClick(e) {
       const index = e.target.dataset.index;
       if (board[index] !== '' || gameOver) return;
 
       board[index] = currentPlayer;
       e.target.textContent = currentPlayer;
+      moveSound.play();
 
       if (checkWin()) {
         gameOver = true;
         highlightWinningCells();
         status.textContent = `Player ${currentPlayer} wins!`;
+        winSound.play();
         showPopup(`Player ${currentPlayer} wins!`);
       } else if (checkDraw()) {
         gameOver = true;
         status.textContent = 'Draw!';
+        drawSound.play();
         showPopup('Draw!');
       } else {
         currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
@@ -183,7 +212,8 @@
     }
 
     function checkDraw() {
-      return board.every(cell => cell !== '');
+      return board
+      .every(cell => cell !== '');
     }
 
     function highlightWinningCells() {
@@ -220,6 +250,7 @@
     cells.forEach(cell => cell.addEventListener('click', handleCellClick));
     restartBtn.addEventListener('click', restartGame);
     closePopupBtn.addEventListener('click', closePopup);
+    rematchBtn.addEventListener('click', restartGame);
   </script>
 </body>
 </html>
