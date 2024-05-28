@@ -1,7 +1,3 @@
-Sure, here's a README file for the Tic Tac Toe game code provided, spiced up with a modern touch and some emojis:
-
----
-
 # 🎮 Tic Tac Toe Game
 
 A simple Tic Tac Toe game built with HTML, CSS, and JavaScript.
@@ -19,7 +15,7 @@ You need a modern web browser to run this game.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/tic-tac-toe.git
+   git clone https://github.com/jinosabu1999/tic-tac-toe.git
    ```
 
 2. Open the `index.html` file in your preferred web browser.
@@ -36,9 +32,6 @@ You need a modern web browser to run this game.
 - CSS
 - JavaScript
 
-## 🖥️ Demo
-
-You can play the game live [here](https://your-username.github.io/tic-tac-toe).
 
 ## 📝 License
 
@@ -50,8 +43,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📌 Authors
 
-- Your Name - [@your-username](https://github.com/your-username)
+- Your Name - [@your-username](https://github.com/jinosabu1999)
 
 ---
-
-Feel free to customize and enhance this README according to your preferences and project specifics!
