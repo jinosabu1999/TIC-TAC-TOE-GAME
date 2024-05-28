@@ -145,7 +145,6 @@
     <div class="popup" id="popup">
       <span class="close-btn" id="close-popup">❌</span>
       <p class="popup-message" id="popup-message"></p>
-      <button id="rematch">Rematch</button>
     </div>
     <div class="game-board">
       <div class="cell" data-index="0"></div>
@@ -171,7 +170,6 @@
     const popup = document.getElementById('popup');
     const popupMessage = document.getElementById('popup-message');
     const closePopupBtn = document.getElementById('close-popup');
-    const rematchBtn = document.getElementById('rematch');
 
     let currentPlayer = 'X';
     let gameOver = false;
@@ -305,7 +303,6 @@
     cells.forEach(cell => cell.addEventListener('click', handleCellClick));
     restartBtn.addEventListener('click', restartGame);
     closePopupBtn.addEventListener('click', closePopup);
-    rematchBtn.addEventListener('click', restartGame);
 
     // Load the game state when the page is loaded
     document.addEventListener('DOMContentLoaded', loadGameState);
