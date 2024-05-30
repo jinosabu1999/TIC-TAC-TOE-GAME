@@ -43,6 +43,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📌 Authors
 
-- Your Name - [@your-username](https://github.com/jinosabu1999)
+- Your Name - [@jinosabu1999](https://github.com/jinosabu1999)
 
 ---
