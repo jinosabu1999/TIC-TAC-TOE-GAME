@@ -40,9 +40,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 - Sound effects from [SoundJay](https://www.soundjay.com/button-sounds.html).
-
-## 📌 Authors
-
-- Your Name - [@jinosabu1999](https://github.com/jinosabu1999)
-
----
