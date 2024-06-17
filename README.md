@@ -40,3 +40,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 - Sound effects from [SoundJay](https://www.soundjay.com/button-sounds.html).
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U7U19ZFQK)
